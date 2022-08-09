@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F798DC428A2A304008BF168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F798DC228A2A304008BF168 /* Main.storyboard */; };
 		7FC9916928A273AB00C5F0D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9916828A273AB00C5F0D9 /* AppDelegate.swift */; };
 		7FC9916B28A273AB00C5F0D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9916A28A273AB00C5F0D9 /* SceneDelegate.swift */; };
-		7FC9916D28A273AB00C5F0D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9916C28A273AB00C5F0D9 /* ViewController.swift */; };
-		7FC9917028A273AB00C5F0D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC9916E28A273AB00C5F0D9 /* Main.storyboard */; };
+		7FC9916D28A273AB00C5F0D9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9916C28A273AB00C5F0D9 /* MainViewController.swift */; };
 		7FC9917228A273AD00C5F0D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC9917128A273AD00C5F0D9 /* Assets.xcassets */; };
 		7FC9917528A273AD00C5F0D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC9917328A273AD00C5F0D9 /* LaunchScreen.storyboard */; };
+		7FC9917D28A273D600C5F0D9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9917C28A273D600C5F0D9 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7FC9916528A273AB00C5F0D9 /* HWLesson2Module3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWLesson2Module3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F798DC328A2A304008BF168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FC9916528A273AB00C5F0D9 /* PingNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC9916828A273AB00C5F0D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FC9916A28A273AB00C5F0D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7FC9916C28A273AB00C5F0D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7FC9916F28A273AB00C5F0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FC9916C28A273AB00C5F0D9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7FC9917128A273AD00C5F0D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FC9917428A273AD00C5F0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FC9917628A273AD00C5F0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FC9917C28A273D600C5F0D9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,7 @@
 		7FC9915C28A273AB00C5F0D9 = {
 			isa = PBXGroup;
 			children = (
-				7FC9916728A273AB00C5F0D9 /* HWLesson2Module3 */,
+				7FC9916728A273AB00C5F0D9 /* PingNet */,
 				7FC9916628A273AB00C5F0D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +50,32 @@
 		7FC9916628A273AB00C5F0D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7FC9916528A273AB00C5F0D9 /* HWLesson2Module3.app */,
+				7FC9916528A273AB00C5F0D9 /* PingNet.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7FC9916728A273AB00C5F0D9 /* HWLesson2Module3 */ = {
+		7FC9916728A273AB00C5F0D9 /* PingNet */ = {
 			isa = PBXGroup;
 			children = (
 				7FC9916828A273AB00C5F0D9 /* AppDelegate.swift */,
+				7FC9917C28A273D600C5F0D9 /* Model.swift */,
 				7FC9916A28A273AB00C5F0D9 /* SceneDelegate.swift */,
-				7FC9916C28A273AB00C5F0D9 /* ViewController.swift */,
-				7FC9916E28A273AB00C5F0D9 /* Main.storyboard */,
+				7FC9916C28A273AB00C5F0D9 /* MainViewController.swift */,
 				7FC9917128A273AD00C5F0D9 /* Assets.xcassets */,
 				7FC9917328A273AD00C5F0D9 /* LaunchScreen.storyboard */,
 				7FC9917628A273AD00C5F0D9 /* Info.plist */,
+				7F798DC228A2A304008BF168 /* Main.storyboard */,
 			);
-			path = HWLesson2Module3;
+			path = PingNet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7FC9916428A273AB00C5F0D9 /* HWLesson2Module3 */ = {
+		7FC9916428A273AB00C5F0D9 /* PingNet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FC9917928A273AD00C5F0D9 /* Build configuration list for PBXNativeTarget "HWLesson2Module3" */;
+			buildConfigurationList = 7FC9917928A273AD00C5F0D9 /* Build configuration list for PBXNativeTarget "PingNet" */;
 			buildPhases = (
 				7FC9916128A273AB00C5F0D9 /* Sources */,
 				7FC9916228A273AB00C5F0D9 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = HWLesson2Module3;
+			name = PingNet;
 			productName = HWLesson2Module3;
-			productReference = 7FC9916528A273AB00C5F0D9 /* HWLesson2Module3.app */;
+			productReference = 7FC9916528A273AB00C5F0D9 /* PingNet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7FC9916028A273AB00C5F0D9 /* Build configuration list for PBXProject "HWLesson2Module3" */;
+			buildConfigurationList = 7FC9916028A273AB00C5F0D9 /* Build configuration list for PBXProject "PingNet" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7FC9916428A273AB00C5F0D9 /* HWLesson2Module3 */,
+				7FC9916428A273AB00C5F0D9 /* PingNet */,
 			);
 		};
 /* End PBXProject section */
@@ -125,9 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F798DC428A2A304008BF168 /* Main.storyboard in Resources */,
 				7FC9917528A273AD00C5F0D9 /* LaunchScreen.storyboard in Resources */,
 				7FC9917228A273AD00C5F0D9 /* Assets.xcassets in Resources */,
-				7FC9917028A273AB00C5F0D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,19 +141,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FC9916D28A273AB00C5F0D9 /* ViewController.swift in Sources */,
+				7FC9916D28A273AB00C5F0D9 /* MainViewController.swift in Sources */,
 				7FC9916928A273AB00C5F0D9 /* AppDelegate.swift in Sources */,
 				7FC9916B28A273AB00C5F0D9 /* SceneDelegate.swift in Sources */,
+				7FC9917D28A273D600C5F0D9 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7FC9916E28A273AB00C5F0D9 /* Main.storyboard */ = {
+		7F798DC228A2A304008BF168 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7FC9916F28A273AB00C5F0D9 /* Base */,
+				7F798DC328A2A304008BF168 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -288,7 +292,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HWLesson2Module3/Info.plist;
+				INFOPLIST_FILE = PingNet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -299,7 +303,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "FS-SIA.HWLesson2Module3";
+				PRODUCT_BUNDLE_IDENTIFIER = "FS-SIA.PingNet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -315,7 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HWLesson2Module3/Info.plist;
+				INFOPLIST_FILE = PingNet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -326,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "FS-SIA.HWLesson2Module3";
+				PRODUCT_BUNDLE_IDENTIFIER = "FS-SIA.PingNet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -337,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7FC9916028A273AB00C5F0D9 /* Build configuration list for PBXProject "HWLesson2Module3" */ = {
+		7FC9916028A273AB00C5F0D9 /* Build configuration list for PBXProject "PingNet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FC9917728A273AD00C5F0D9 /* Debug */,
@@ -346,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FC9917928A273AD00C5F0D9 /* Build configuration list for PBXNativeTarget "HWLesson2Module3" */ = {
+		7FC9917928A273AD00C5F0D9 /* Build configuration list for PBXNativeTarget "PingNet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FC9917A28A273AD00C5F0D9 /* Debug */,
