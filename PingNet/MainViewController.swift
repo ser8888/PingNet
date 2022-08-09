@@ -11,7 +11,7 @@ class MainViewController: UIViewController {
     
     @IBAction func sendRequesButtonPressed() {
         
-        let urlString = "https://api.agify.io/?name=alexey"
+        let urlString = "https://itunes.apple.com/search?term=jack+johnson&limit=25."
         fetchFirstRequest(urlString: urlString)
     }
     
@@ -31,8 +31,8 @@ class MainViewController: UIViewController {
                 return
             }
             do {
-                let resultOfRequest = try JSONDecoder().decode(Prediction.self, from: data)
-                print(resultOfRequest)
+                let track = try JSONDecoder().decode(Re, from: data)
+                print(track)
                 
             } catch let error {
                 print("Failed to decode JSON", error)
